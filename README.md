@@ -182,6 +182,12 @@ Abaixo um exemplo das interfaces de criação da _Collection_ no Strapi, com os 
  
 ## O que esperamos do seu teste
 
+- Ver na solução a utilização de um framework Javascript da sua escolha, mas por aqui utilizamos o Next.Js. Utilize o framework da melhor forma possível (metodologia/estrutura).
+- Utilização de um framework CSS no desenvolvimento. Utilizamos o Material-UI, porém fique a vontade para utilizar outro se preferir.
+- Um HTML escrito da maneira mais semântica possível (HTML5)
+- Não tem necessidade de aplicar design responsivo neste projeto
+- Testes unitários
+
 ## O que nós ficaríamos felizes de ver em seu teste
 
 ## O que nos impressionaria
