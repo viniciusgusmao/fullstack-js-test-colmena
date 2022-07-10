@@ -182,16 +182,28 @@ Abaixo um exemplo das interfaces de criação da _Collection_ no Strapi, com os 
  
 ## O que esperamos do seu teste
 
-- Ver na solução a utilização de um framework Javascript da sua escolha, mas por aqui utilizamos o Next.Js. Utilize o framework da melhor forma possível (metodologia/estrutura).
-- Utilização de um framework CSS no desenvolvimento. Utilizamos o Material-UI, porém fique a vontade para utilizar outro se preferir.
+- Os requisitos mínimos implementados: Autenticação, tela da listagem de conversas e a tela de listagem de publicações.
+- Ver na solução a utilização de um framework Javascript, por aqui utilizamos o Next.Js mas fique a vontade nessa escolha. Utilize o framework da melhor forma possível (metodologia/estrutura).
+- Utilização de um framework CSS no desenvolvimento. Utilizamos o [Material-UI](https://mui.com/), porém fique a vontade para utilizar outro se preferir.
 - Um HTML escrito da maneira mais semântica possível (HTML5)
 - Não tem necessidade de aplicar design responsivo neste projeto
-- Testes unitários
+- Boas práticas de desenvolvimento (Clean Code)
 
 ## O que nós ficaríamos felizes de ver em seu teste
+- Testes unitários
+- Protótipagem das telas em alguma ferramenta de criação de interface (Figma)
 
 ## O que nos impressionaria
+- Aplicar o GraphQl na comunicação com o Strapi
+- Documentar a arquitetura da solução através de diagramas, considerando as aplicações envolvidas na solução.
 
 ## O que nós não gostaríamos
+- Descobrir que não foi você quem fez seu teste
+- Ver commits grandes, sem muita explicação nas mensagens em seu repositório
+- Alguma solução sem utilizar o Javascript como base
 
 ## O que avaliaremos de seu teste
+- Alcance dos objetivos propostos
+- As instruções de como rodar o projeto
+- Organização, semântica, estrutura, legibilidade, manutenibilidade do seu código
+- Componentização e extensibilidade dos componentes Javascript
