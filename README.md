@@ -12,7 +12,7 @@ Lembre-se que este é um teste técnico e que não existe apenas uma resposta co
 ## O desafio
 Você irá construir um painel administrativo que, basicamente, buscará informações de algumas API's distintas para listar o conteúdo na tela, além de outras manipulações que serão explicadas com mais detalhes ao longo deste documento. É uma aplicação simples, e poderemos dividir o esforço em 3 etapas:
 
- 1. Fluxo de autenticação: Este painel terá como a tela inicial um formulário de autenticação, não possuindo nenhuma página pública para acesso.
+ 1. Fluxo de autenticação: Formulário simples para entradas de dados (usuario e senha) relacionados a autenticação.
  2. Listagem de conversas: Após a autenticação, esta será a primeira página que o sistema deverá exibir. Será uma listagem simples das conversas retornadas da API.
  3. Listagem de publicações: Esta página será acessada através de um menu de navegação, após a autenticação do usuário. Será uma listagem de publicações retornadas da API.
  
@@ -162,17 +162,17 @@ Na interface, esperamos ver as seguintes informações:
 Será uma listagem simples, sem a necessidade de componentes de busca e nem paginação. 
  
 ### 3. Listagem de publicações
-Esta listagem utilizará o Strapi como fonte de consulta. Este framework é feito em Nodejs e sua instalação é bastante simples, como podemos ver em seu [Github oficial](https://github.com/strapi/strapi). A ideia é que você possa subir uma instância do Strapi local para fazer o desenvolvimento, não tendo a necessidade de enviá-lo como artefato do teste. Nós já teremos uma instância do Strapi por aqui, e no caso só faríamos o redirecionamento para o nosso quando formos testar seu código.
+Esta listagem utilizará o Strapi como fonte de consulta. Este framework é feito em Nodejs e sua instalação é bastante simples, como podemos ver em seu [Github oficial](https://github.com/strapi/strapi). A ideia é que você possa subir uma instância do Strapi local para fazer o desenvolvimento, não tendo a necessidade de enviá-lo como artefato da entrega. Nós já teremos uma instância do Strapi por aqui, e no caso só faríamos o redirecionamento para o nosso quando formos testar seu código.
 
 Sobre a estrutura do Strapi, teremos uma _Collection_ chamada Publication, com os seguintes campos:
  - uuid: ID único para uma publicação
  - title: Título 
  - description: Descrição
  - author: Autor
- - status: Status da publicação
+ - status: Status da publicação (booleano)
  - creation_date: Data de criação
  
-Os registros para a _Collection_ _Publication_ poderão ser inseridos via interface administrativa do Strapi. O que esperamos na interface desta página é uma listagem destas publicações, com a opção de alterar o status de cada registro. Este status representaria a visibilidade de uma publicação para o usuário final.
+Os registros para a _Collection_ _Publication_ poderão ser inseridos via interface administrativa do Strapi. O que esperamos na interface desta página é uma listagem destas publicações, com a opção de alterar o status de cada registro. Este status representaria a visibilidade ou não de uma publicação para o usuário final.
 
 Abaixo um exemplo das interfaces de criação da _Collection_ no Strapi, com os tipos de cada coluna:
 
@@ -183,7 +183,7 @@ Abaixo um exemplo das interfaces de criação da _Collection_ no Strapi, com os 
 ## O que esperamos do seu teste
 
 - Os requisitos mínimos implementados: Autenticação, tela da listagem de conversas e a tela de listagem de publicações.
-- Ver na solução a utilização de um framework Javascript, por aqui utilizamos o Next.Js mas fique a vontade nessa escolha. Utilize o framework da melhor forma possível (metodologia/estrutura).
+- Ver na solução a utilização de um framework Javascript. Utilize o framework da melhor forma possível (metodologia/estrutura).
 - Utilização de um framework CSS no desenvolvimento. Utilizamos o [Material-UI](https://mui.com/), porém fique a vontade para utilizar outro se preferir.
 - Um HTML escrito da maneira mais semântica possível (HTML5)
 - Não tem necessidade de aplicar design responsivo neste projeto
@@ -191,7 +191,7 @@ Abaixo um exemplo das interfaces de criação da _Collection_ no Strapi, com os 
 
 ## O que nós ficaríamos felizes de ver em seu teste
 - Testes unitários
-- Protótipagem das telas em alguma ferramenta de criação de interface (Figma)
+- Protótipagem das telas em alguma ferramenta de criação de interface (Ex: Figma)
 
 ## O que nos impressionaria
 - Aplicar o GraphQl na comunicação com o Strapi
