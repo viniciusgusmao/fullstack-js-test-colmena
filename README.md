@@ -191,7 +191,7 @@ Abaixo um exemplo das interfaces de criação da _Collection_ no Strapi, com os 
 
 ## O que nós ficaríamos felizes de ver em seu teste
 - Testes unitários
-- Protótipagem das telas em alguma ferramenta de criação de interface (Ex: Figma)
+- Prototipagem das telas em alguma ferramenta de criação de interface (Ex: Figma)
 
 ## O que nos impressionaria
 - Aplicar o GraphQl na comunicação com o Strapi
