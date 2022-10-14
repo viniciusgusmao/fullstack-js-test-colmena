@@ -122,7 +122,7 @@ axios(config)
 
 </details>
 
-Podemos perceber que o _endpoint_ 200 não retorna _token_ de autenticação. O ciclo de vida da sessão do usuário deverá ser implementada no framework Javascript escolhido. Já utilizamos por aqui o Next.js, que resolve isso pra gente. Porém, fique à vontade para utilizar outro de sua escolha. **O usuário e senha para a autenticação serão enviados para seu e-mail**.  
+Podemos perceber que o _endpoint_ 200 não retorna _token_ de autenticação. O ciclo de vida da sessão do usuário deverá ser implementada no framework Next.js **O usuário e senha para a autenticação serão enviados para seu e-mail**.  
 
 ### 2. Listagem de conversas
 O Nextcloud prover um serviço de chat, através de uma API chamada [Talk](https://nextcloud-talk.readthedocs.io/en/latest/). E basicamente o que vamos fazer nesta tela será uma listagem dessas conversas. 
@@ -183,7 +183,7 @@ Abaixo um exemplo das interfaces de criação da _Collection_ no Strapi, com os 
 ## O que esperamos do seu teste
 
 - Os requisitos mínimos implementados: Autenticação, tela da listagem de conversas e a tela de listagem de publicações.
-- Ver na solução a utilização de um framework Javascript. Utilize o framework da melhor forma possível (metodologia/estrutura).
+- Ver na solução a utilização do framework Next.js.
 - Utilização de um framework CSS no desenvolvimento. Utilizamos o [Material-UI](https://mui.com/), porém fique a vontade para utilizar outro se preferir.
 - Um HTML escrito da maneira mais semântica possível (HTML5)
 - Não tem necessidade de aplicar design responsivo neste projeto
