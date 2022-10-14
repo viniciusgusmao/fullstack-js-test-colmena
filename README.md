@@ -7,7 +7,7 @@
 ## Instruções
 Você deverá criar um `fork` deste projeto, e desenvolver em cima do seu fork. Use o *README* principal do seu repositório para nos contar como foi resolver seu teste e as decisões tomadas, e principalmente as instruções de como rodar seu projeto, afinal a primeira pessoa que irá rodar seu projeto será um programador de nossa equipe.
 
-Lembre-se que este é um teste técnico e que não existe apenas uma resposta correta. Indicaremos, ao longo deste documento, algumas ferramentas e tecnologias que estão mais alinhadas com nossa realidade no time, porém não seremos tão rígidos em suas escolhas técnicas, mas claro, como premissa da vaga, considere frameworks ou bibliotecas em Javascript para chegar na solução final. Estipularemos um prazo máximo de entrega de **4 dias**.
+Lembre-se que este é um teste técnico e que não existe apenas uma resposta correta. Indicaremos, ao longo deste documento, algumas ferramentas e tecnologias que estão mais alinhadas com nossa realidade no time, porém não seremos tão rígidos em suas escolhas técnicas, mas claro, como premissa da vaga, considere frameworks ou bibliotecas em Javascript para chegar na solução final. Estipularemos um prazo máximo de entrega de **5 dias**.
 
 ## O desafio
 Você irá construir um painel administrativo que, basicamente, buscará informações de algumas API's distintas para listar o conteúdo na tela, além de outras manipulações que serão explicadas com mais detalhes ao longo deste documento. É uma aplicação simples, e poderemos dividir o esforço em 3 etapas:
